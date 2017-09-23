@@ -1,0 +1,123 @@
+
+header{
+    padding:  30px 0 20px 0;
+
+}
+
+nav{
+    text-align: right;
+    background-color: #1F1F1E;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: static;
+
+}
+
+nav .navlink{
+    color: #EBF2FF;
+    padding: 8px;
+    background-size: cover;
+    padding-left: ;
+}
+
+.headshot{
+    background-image: url(../imgs/headshot.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    float: left;
+    margin: 20px;
+    margin-left: 0px;
+}
+.name p{
+    text-align: left;
+    padding-left: 10px;
+    color:  #FFFFFF;
+    font-style: oblique;
+    font-size: 250%;
+    text-wrap: avoid;
+
+
+}
+
+.name{
+    margin-top: 40px;
+
+}
+
+
+.info{
+    padding-left: 15px;
+    padding-right: 20px;
+    background-color: white;
+    float: left;
+    width: 100%;
+    margin: 10px;
+    display: inline;
+    margin: 0px;
+    min-height: -moz-calc(100% - 30px);
+}
+
+body{
+    height:100%;
+}
+footer{
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    padding-bottom: 1px;
+    background-color: #1F1F1E;
+    text-align: right;
+    font-size: 12px;
+    color: white;
+    position: relative;
+}
+
+html{
+    background-color: #4A4A4A;
+}
+
+section{
+
+}
+
+
+@media (max-width: 400px) {
+
+
+    .headshot{
+        float: none;
+        text-align: center;
+        margin-left: 55px;
+        width: 250px;
+        height: 250px;
+    }
+    .name p {
+        font-size: 30px;
+    }
+
+    .info {
+        float: none;
+        background-color: transparent;
+        color: white;
+    }
+    nav{
+        text-align: center;
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .name p {
+        font-size: 30px;
+    }
+    nav{
+        text-align: center;
+        padding-left: 50px;
+    }
+
+}
+
